@@ -15,5 +15,6 @@ end
 
 
 get '/' do
+	@barbers = Barber.all
 	erb :index			
 end
