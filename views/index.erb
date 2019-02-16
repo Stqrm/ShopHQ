@@ -1,6 +1,6 @@
 <h3>Barbers list</h3>
-<% @barbers.each do |b| %>
+<% @barbers.each do |barber| %>
     <p>
-<%= b.name %>
+        <a href="/barber/<%= barber.id %>"><%= barber.name %></a>
     </p>
 <% end %>
