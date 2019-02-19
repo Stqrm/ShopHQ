@@ -59,4 +59,8 @@ get '/client/:id' do
 	erb :client
 end
 
+get '/contacts' do
+	erb :contacts
+end
+
 
